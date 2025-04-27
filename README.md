@@ -80,8 +80,7 @@ WEB_BTP/
 
 ## 📌 Parcours utilisateur
 
-```mermaid
-graph LR
+```
 A[Accueil] --> B[Connexion]
 B --> C[Tableau de bord principal]
 C --> D[Ajouter | Modifier | Supprimer | Consulter les données]
