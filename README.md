@@ -39,7 +39,7 @@ WEB_BTP/
 - Présentation des services, équipes, projets.
 - Navigation intuitive.
 
-> ![Accueil](./images/accueil_site.png)
+> ![Accueil](./images/accueil_site.PNG)
 
 ---
 
