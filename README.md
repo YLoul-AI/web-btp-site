@@ -134,6 +134,19 @@ Les contributions sont les bienvenues !
 
 ---
 
+---
+
+## 👨‍💻 Auteur
+**Youssef Loul**
+
+- 📧 Email : [youssef.loul.ai@gmail.com](mailto:youssef.loul.ai@gmail.com)
+- 🎓 Étudiant en Master en Systèmes Intelligents et Ingénierie
+- 🛠️ Compétences : Java · SQL · HTML · CSS · JavaScript · PHP · Python
+- 🔗 LinkedIn : [loul-youssef-21777819a](https://www.linkedin.com/in/loul-youssef-21777819a/)
+
+
+---
+
 ## 🙏 Remerciements
 
 Merci à tous les utilisateurs et contributeurs qui soutiennent **WEB_BTP**.
