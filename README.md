@@ -119,7 +119,7 @@ Le projet propose plusieurs fonctionnalités pour la gestion des utilisateurs et
 - **Consulter les équipes**: [Voir les équipes](http://localhost/WEB_BTP/function/table/tEquipes.php)
 - **Consulter les projets**: [Voir les projets](http://localhost/WEB_BTP/function/table/tProjets.php)
 - **Consulter les services**: [Voir les services](http://localhost/WEB_BTP/function/table/tServices.php)
-
+---
 
 ## Technologies Utilisées
 
