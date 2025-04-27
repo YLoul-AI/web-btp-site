@@ -70,18 +70,7 @@ WEB_BTP/
 │   │   ├── tEquipes.php
 │   │   ├── tProjets.php
 │   │   └── tServices.php
-└── XML/
-    ├── xml.html             # Page pour interagir avec des fichiers XML
-    ├── styles.css           # Feuille de style pour la page XML
-    ├── script.js            # Script JavaScript pour le traitement des fichiers XML
-    ├── load_exercise.php    # Script PHP pour charger des exercices XML
-    └── files/               # Dossier contenant les fichiers XML pour les TD
-        ├── TD1/
-        ├── TD2/
-        └── TD3/
-```
 
----
 
 ## Fonctionnalités
 
@@ -131,11 +120,6 @@ Le projet propose plusieurs fonctionnalités pour la gestion des utilisateurs et
 - **Consulter les projets**: [Voir les projets](http://localhost/WEB_BTP/function/table/tProjets.php)
 - **Consulter les services**: [Voir les services](http://localhost/WEB_BTP/function/table/tServices.php)
 
-### 8. **Section XML**
-- **Page XML**: [Accéder à la section XML](http://localhost/WEB_BTP/XML/xml.html)
-- Permet de travailler avec des fichiers XML, incluant le chargement d'exercices et la gestion de fichiers au format XML.
-
----
 
 ## Technologies Utilisées
 
