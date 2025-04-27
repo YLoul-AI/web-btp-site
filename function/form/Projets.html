@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire Projets</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: #DB5B20;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input, textarea, button {
+            margin-top: 5px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #DB5B20;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+            align-self: flex-start;
+        }
+        button:hover {
+            background-color: #b44716;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ajouter un Projet</h1>
+    <form action="../../../WEB_BTP/function/Ajouter/ajouter_projet.php" method="post">
+        <label for="nom">Nom du Projet :</label>
+        <input type="text" id="nom" name="nom" required>
+        
+        <label for="description">Description :</label>
+        <textarea id="description" name="description" required></textarea>
+        
+        <label for="date_debut">Date de Début :</label>
+        <input type="date" id="date_debut" name="date_debut">
+        
+        <label for="date_fin">Date de Fin :</label>
+        <input type="date" id="date_fin" name="date_fin">
+        
+        <label for="budget">Budget :</label>
+        <input type="number" step="0.01" id="budget" name="budget">
+        
+        <label for="localisation">Localisation :</label>
+        <input type="text" id="localisation" name="localisation">
+        
+        <label for="statut">Statut :</label>
+        <input type="text" id="statut" name="statut">
+        
+        <label for="nom_client">Nom du Client :</label>
+        <input type="text" id="nom_client" name="nom_client">
+        
+        <label for="contact_client">Contact du Client :</label>
+        <input type="text" id="contact_client" name="contact_client">
+        
+        <button type="submit">Ajouter Projet</button>
+        <button type="reset">vider</button>
+    </form>
+</body>
+</html>

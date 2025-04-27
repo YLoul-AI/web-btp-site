@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modifier Projet</title>
+    <link rel="stylesheet" type="text/css" href="Styles/stylePro.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Modifier Projet</h2>
+        <form action="" method="post">
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" value="<?php echo $projet['nom']; ?>">
+
+            <label for="description">Description:</label>
+            <input type="text" id="description" name="description" value="<?php echo $projet['description']; ?>">
+
+            <label for="date_debut">Date de Début:</label>
+            <input type="date" id="date_debut" name="date_debut" value="<?php echo $projet['date_debut']; ?>">
+
+            <label for="date_fin">Date de Fin:</label>
+            <input type="date" id="date_fin" name="date_fin" value="<?php echo $projet['date_fin']; ?>">
+
+            <label for="budget">Budget:</label>
+            <input type="text" id="budget" name="budget" value="<?php echo $projet['budget']; ?>">
+
+            <label for="localisation">Localisation:</label>
+            <input type="text" id="localisation" name="localisation" value="<?php echo $projet['localisation']; ?>">
+
+            <label for="statut">Statut:</label>
+            <select id="statut" name="statut">
+                <option value="En cours" <?php if($projet['statut'] == "En cours") echo "selected"; ?>>En cours</option>
+                <option value="Terminé" <?php if($projet['statut'] == "Terminé") echo "selected"; ?>>Terminé</option>
+                <option value="En attente" <?php if($projet['statut'] == "En attente") echo "selected"; ?>>En attente</option>
+            </select>
+
+            <label for="nom_client">Nom du Client:</label>
+            <input type="text" id="nom_client" name="nom_client" value="<?php echo $projet['nom_client']; ?>">
+
+            <label for="contact_client">Contact du Client:</label>
+            <input type="text" id="contact_client" name="contact_client" value="<?php echo $projet['contact_client']; ?>">
+
+            <input type="submit" value="Modifier">
+            <a class="aa" href="../../contenu/main.html " style="text-decoration: none;">Retour</a>
+        </form>
+    </div>
+</body>
+</html>

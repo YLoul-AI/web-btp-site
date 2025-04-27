@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulaire de connexion</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <h4>Connexion</h4>
+    </header>
+    <form method="post" action="verfier.php">
+      <div class="form_wrapper">
+        <input id="username" name="username" type="text" required>
+        <label for="username">Nom d'utilisateur</label>
+      </div>
+      <div class="form_wrapper">
+        <input id="password" name="password" type="password" required>
+        <label for="password">Mot de passe</label>
+      </div>
+      <a class="aa" href="../passwordObliee/pwd.html">Mot de passe oublié?</a>
+      <div class="button_box">
+        <button type="submit">Envoyer</button>
+        <button type="reset">Vider</button>
+      </div>
+      <div class="new_account">
+        Pas de compte? <a class="aa" href="../inscreption/inscreption.html" >Créer</a>
+      </div>
+      <div style="">
+         <a class="aa" href="../../home/index.html" >Retour</a>
+      </div>
+    </form>
+  </main>
+</body>
+</html>

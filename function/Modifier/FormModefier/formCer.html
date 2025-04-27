@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modifier Certification</title>
+    <link rel="stylesheet" type="text/css" href="Styles/styleCer.css">
+    <style>
+        /* Ajoutez votre CSS ici */
+    </style>
+</head>
+<body>
+    <h2>Modifier Certification</h2>
+    <form method="post">
+        <label for="nom">Nom:</label><br>
+        <input type="text" id="nom" name="nom" value="<?php echo $certification['nom']; ?>"><br>
+        
+        <label for="description">Description:</label><br>
+        <textarea id="description" name="description"><?php echo $certification['description']; ?></textarea><br>
+        
+        <label for="delivre_par">Délivré par:</label><br>
+        <input type="text" id="delivre_par" name="delivre_par" value="<?php echo $certification['delivre_par']; ?>"><br>
+        
+        <label for="date_delivrance">Date de Délivrance:</label><br>
+        <input type="date" id="date_delivrance" name="date_delivrance" value="<?php echo $certification['date_delivrance']; ?>"><br>
+        
+        <label for="date_expiration">Date d'Expiration:</label><br>
+        <input type="date" id="date_expiration" name="date_expiration" value="<?php echo $certification['date_expiration']; ?>"><br>
+        
+        <label for="niveau_certification">Niveau Certification:</label><br>
+        <input type="text" id="niveau_certification" name="niveau_certification" value="<?php echo $certification['niveau_certification']; ?>"><br>
+        
+        <input type="submit" value="Modifier">
+        <a class="aa" href="../../contenu/main.html " style="text-decoration: none;">Retour</a>
+        
+    </form>
+</body>
+</html>

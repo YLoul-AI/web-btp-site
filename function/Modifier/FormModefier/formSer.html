@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modifier Service</title>
+    <link rel="stylesheet" type="text/css" href="Styles/styleSer.css">
+</head>
+<body>
+
+<h2>Modifier Service</h2>
+
+<form method="post">
+    <label for="nom">Nom:</label><br>
+    <input type="text" id="nom" name="nom" value="<?php echo $service['nom']; ?>"><br>
+    
+    <label for="description">Description:</label><br>
+    <textarea id="description" name="description"><?php echo $service['description']; ?></textarea><br>
+    
+    <label for="categorie">Catégorie:</label><br>
+    <input type="text" id="categorie" name="categorie" value="<?php echo $service['categorie']; ?>"><br>
+    
+    <label for="prix">Prix:</label><br>
+    <input type="text" id="prix" name="prix" value="<?php echo $service['prix']; ?>"><br>
+    
+    <label for="duree_estimee">Durée estimée:</label><br>
+    <input type="text" id="duree_estimee" name="duree_estimee" value="<?php echo $service['duree_estimee']; ?>"><br>
+    
+    <input type="submit" value="Enregistrer">
+    <a class="aa" href="../../contenu/main.html " style="text-decoration: none;">Retour</a>
+
+</form>
+
+</body>
+</html>

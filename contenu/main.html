@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de bord</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="container">
+    <!-- Tableau de bord -->
+    <div class="dashboard">
+        <h1>Espace d'admin</h1>
+    </div>
+
+    <!-- Menu -->
+    <div class="menu">
+        <div class="link-with-submenu" style="position: relative; display: inline-block;">
+            <a href="#" id="services">Services</a>
+            <div class="submenu" id="services-submenu">
+                <ul>
+                    <li><a href="../function/form/Services.html" id="Ajou_services" >Ajouter Service</a></li>
+                    <li><a href="../function/table/tServices.php" id="Mod_services">Modifier Service</a></li>
+                    <li><a href="../function/table/tServices.php" id="Sup_services">Supprimer Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="link-with-submenu" style="position: relative; display: inline-block;">
+            <a href="#" id="projets">Projets</a>
+            <div class="submenu" id="projets-submenu">
+                <ul>
+                    <li><a href="../function/form/Projets.html" id="Ajou_projets" >Ajouter Projet</a></li>
+                    <li><a href="../function/table/tProjets.php" id="Mod_projets">Modifier Projet</a></li>
+                    <li><a href="../function/table/tProjets.php" id="Sup_projets">Supprimer Projet</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="link-with-submenu" style="position: relative; display: inline-block;">
+            <a href="#" id="equipes">Équipes</a>
+            <div class="submenu" id="equipes-submenu">
+                <ul>
+                    <li><a href="../function/form/Equipes.html" id="Ajou_equipes" >Ajouter Équipe</a></li>
+                    <li><a href="../function/table/tEquipes.php" id="Mod_equipes">Modifier Équipe</a></li>
+                    <li><a href="../function/table/tEquipes.php" id="Sup_equipes">Supprimer Équipe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="link-with-submenu" style="position: relative; display: inline-block;">
+            <a href="#" id="certifications">Certifications</a>
+            <div class="submenu" id="certifications-submenu">
+                <ul>
+                    <li><a href="../function/form/Certafications.html" id="Ajou_certifications" >Ajouter Certification</a></li>
+                    <li><a href="../function/table/tCertafications.php" id="Mod_certifications">Modifier Certification</a></li>
+                    <li><a href="../function/table/tCertafications.php" id="Sup_certifications">Supprimer Certification</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="link-with-submenu" style="position: relative; display: inline-block;">
+            <a href="#" id="contacts">Contacts</a>
+            <div class="submenu" id="contacts-submenu">
+                <ul>
+                    <li><a href="../function/form/Contacts.html" id="Ajou_contacts" >Ajouter Contact</a></li>
+                    <li><a href="../function/table/tContacts.php" id="Mod_contacts">Modifier Contact</a></li>
+                    <li><a href="../function/table/tContacts.php" id="Sup_contacts">Supprimer Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Conteneur pour afficher les formulaires -->
+    <div class="content">
+        <div id="form-container" class="form-container"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+<a href="../home/index.html">Routeur a la page d'accueil</a>
+</body>
+</html>

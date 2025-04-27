@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+header h4 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #DB5B20;
+}
+
+.form_wrapper {
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.form_wrapper input {
+  width: 80%; /* Adjust the width to make inputs smaller if needed */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+.form_wrapper label {
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background-color: #fff;
+  padding: 0 5px;
+  color: #777;
+  font-size: 14px;
+}
+
+a.aa {
+  display: block;
+  text-align: right;
+  margin-bottom: 10px;
+  color: #DB5B20;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+a.aa:hover {
+  text-decoration: underline;
+}
+
+.button_box {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between buttons */
+  margin-bottom: 10px; /* Added margin bottom for spacing */
+}
+
+.button_box button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #DB5B20;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 40px;
+}
+
+.button_box button[type="reset"] {
+  background-color: #6c757d;
+}
+
+.new_account {
+  text-align: center; /* Aligning the 'Créer un compte' link to the right */
+  margin-top: 20px;
+}
+
+.new_account a.aa {
+  color: #DB5B20;
+  text-decoration: none;
+  text-align: center;
+}
+
+.new_account a.aa:hover {
+  text-decoration: underline;
+}
+
+

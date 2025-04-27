@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire de modification de mot de passe</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+      </header>
+      <form method="post" action="modifierPwd.php">
+        <div class="form_wrapper">
+          <input id="username" name="username" type="text" required>
+          <label for="email">Username</label>
+        </div>
+        <div class="form_wrapper">
+          <input id="new_password" name="new_password" type="password" required>
+          <label for="new_password">Nouveau mot de passe</label>
+        </div>
+        <table>
+          <tr>
+            <td><button type="submit">Mise a jour </button></td>
+            <td><button type="reset">Annuler</button></td>
+            <td><div class="new_account">
+              <a class="aa" href="../login/login.html">Retour</a>
+            </div></td>
+          </tr>
+        </table>
+      </form>
+    </main>
+  </body>
+</html>

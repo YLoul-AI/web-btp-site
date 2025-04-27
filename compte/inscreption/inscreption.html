@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulaire d'inscription</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <h4>Inscription</h4>
+    </header>
+    <form method="post" action="recupre.php">
+      <div class="form_wrapper">
+        <input id="full_name" name="full_name" type="text" required>
+        <label for="full_name">Nom complet</label>
+      </div>
+      <div class="form_wrapper">
+        <input id="username" name="username" type="text" required>
+        <label for="username">Nom d'utilisateur</label>
+      </div>
+      <div class="form_wrapper">
+        <input id="email" name="email" type="email" required>
+        <label for="email">Email</label>
+      </div>
+      <div class="form_wrapper">
+        <input id="phone" name="phone" type="text">
+        <label for="phone">Téléphone</label>
+      </div>
+      <div class="form_wrapper">
+        <input id="address" name="address" type="text">
+        <label for="address">Adresse</label>
+      </div>
+      <div class="form_wrapper">
+        <input id="password" name="password" type="password" required>
+        <label for="password">Mot de passe</label>
+      </div>
+      <div class="button_box">
+        <button type="submit" name="valider">Valider</button>
+        <button type="reset">Vider</button>
+      </div>
+      <div class="new_account">
+        <a class="aa" href="../../compte/login/login.html" id="show-login">Retour</a>
+      </div>
+    </form>
+  </main>
+</body>
+</html>

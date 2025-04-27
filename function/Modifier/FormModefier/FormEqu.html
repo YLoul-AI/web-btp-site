@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modifier Membre d'Équipe</title>
+    <!-- Inclure des styles CSS -->
+    <link rel="stylesheet" type="text/css" href="Styles/styleEqu.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Modifier Membre d'Équipe</h2>
+        <form action="" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" value="<?php echo $equipe['nom']; ?>"><br><br>
+            <label for="role">Rôle :</label>
+            <input type="text" id="role" name="role" value="<?php echo $equipe['role']; ?>"><br><br>
+            <label for="bio">Biographie :</label><br>
+            <textarea id="bio" name="bio"><?php echo $equipe['bio']; ?></textarea><br><br>
+            <label for="photo_url">URL de la Photo :</label>
+            <input type="text" id="photo_url" name="photo_url" value="<?php echo $equipe['photo_url']; ?>"><br><br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" value="<?php echo $equipe['email']; ?>"><br><br>
+            <label for="telephone">Téléphone :</label>
+            <input type="tel" id="telephone" name="telephone" value="<?php echo $equipe['telephone']; ?>"><br><br>
+            <label for="linkedin_url">URL LinkedIn :</label>
+            <input type="text" id="linkedin_url" name="linkedin_url" value="<?php echo $equipe['linkedin_url']; ?>"><br><br>
+            <input type="submit" value="Modifier">
+            <a class="aa" href="../../contenu/main.html " style="text-decoration: none;">Retour</a>
+        </form>
+    </div>
+</body>
+</html>

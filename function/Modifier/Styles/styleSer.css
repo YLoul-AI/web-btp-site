@@ -1,0 +1,45 @@
+/* Style du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d9d9db;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Style du titre */
+h2 {
+    color: #DB5B20;
+    text-align: center;
+}
+
+/* Style des étiquettes des champs de formulaire */
+label {
+    color: #DB5B20;
+    font-weight: bold;
+}
+
+/* Style des champs de formulaire */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #DB5B20;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style du bouton de soumission du formulaire */
+input[type="submit"] {
+    background-color: #DB5B20;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style du bouton de soumission du formulaire au survol */
+input[type="submit"]:hover {
+    background-color: #c44d1f;
+}

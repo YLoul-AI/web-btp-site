@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire Contacts</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: #DB5B20;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input, textarea, button {
+            margin-top: 5px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #DB5B20;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+            align-self: flex-start;
+        }
+        button:hover {
+            background-color: #b44716;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contactez-nous</h1>
+    <form action="ajouter_contact.php" method="post">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+        
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="telephone">Téléphone :</label>
+        <input type="tel" id="telephone" name="telephone">
+        
+        <label for="sujet">Sujet :</label>
+        <input type="text" id="sujet" name="sujet">
+        
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Envoyer</button>
+        <button type="reset">vider</button>
+    </form>
+</body>
+</html>

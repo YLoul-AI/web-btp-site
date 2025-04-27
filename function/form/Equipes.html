@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire Équipes</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: #DB5B20;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input, textarea, button {
+            margin-top: 5px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #DB5B20;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+            align-self: flex-start;
+        }
+        button:hover {
+            background-color: #b44716;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ajouter un Membre de l'Équipe</h1>
+    <form action="../../../WEB_BTP/function/Ajouter/ajouter_equipe.php" method="post">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+        
+        <label for="role">Rôle :</label>
+        <input type="text" id="role" name="role" required>
+        
+        <label for="bio">Biographie :</label>
+        <textarea id="bio" name="bio" required></textarea>
+        
+        <label for="photo_url">URL de la Photo :</label>
+        <input type="url" id="photo_url" name="photo_url">
+        
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email">
+        
+        <label for="telephone">Téléphone :</label>
+        <input type="tel" id="telephone" name="telephone">
+        
+        <label for="linkedin_url">URL LinkedIn :</label>
+        <input type="url" id="linkedin_url" name="linkedin_url">
+        
+        <button type="submit">Ajouter Membre</button>
+        <button type="reset">vider</button>
+    
+    </form>
+</body>
+</html>

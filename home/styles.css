@@ -1,0 +1,308 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #DB5B20;
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+}
+
+.logo img {
+    max-width: 100px; /* Ajustez la largeur du logo selon vos besoins */
+    height: auto;
+    margin-left: 20px; /* Espacement du logo par rapport au bord gauche */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fafbfb;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #d9d9db;
+}
+
+.connecter {
+    margin-right: 20px; /* Espacement du bouton "Connecter" par rapport au bord droit */
+}
+
+.connecter .button,
+.connecter .XML {
+    background-color: #fff;
+    color: #070707;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.connecter .button:hover,
+.connecter .XML:hover {
+    background-color: #d9d9db;
+}
+
+.content {
+    padding: 20px;
+}
+/*--------------section-----------*/
+section h2 {
+    color: #DB5B20;
+    font-size: 50px;
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    align-items: center; /* Aligner verticalement les éléments */
+}
+
+.image-container {
+    flex: 1; /* Faites en sorte que l'image occupe 50% de l'espace */
+    margin-right: 20px; /* Ajouter une marge entre l'image et le texte */
+}
+.DEFsection {
+    flex: 1; /* Faites en sorte que la section de texte occupe 50% de l'espace */
+    background: color #d9d9d9;
+    text-align: justify;
+}
+.paragraph {
+    font-weight: bold; /* Mettre le texte en gras */
+    font-size: 20px; /* Définir une taille de police plus grande */
+}
+.btn1, .btn2{
+    text-decoration: none;
+    padding: 1rem 2rem;
+    background:  #d9d9db;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #070707;
+    text-align: end;
+}
+.btn1:hover, .btn2:hover{
+    background: #DB5B20;
+    color: #fafbfb;
+    letter-spacing: 3px;
+    
+}
+/*letter-spacing: 3px;*/
+/* Ajoutez ces styles à votre fichier styles.css */
+.services .service-group {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Crée quatre colonnes égales */
+    grid-gap: 20px; /* Espacement entre les colonnes */
+}
+
+.services .service-group section {
+    background-color:#d9d9db;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.service-group p {
+    margin: 0;
+    color: #fff; /* Supprime les marges par défaut des paragraphes */
+}
+.service-group h4 {
+    text-align: center;
+    color: #DB5B20; /* Supprime les marges par défaut des paragraphes */
+}
+.image-fixee {
+    width: 100%;  /* Définir la largeur de l'image */
+    height: 200px; /* Définir la hauteur de l'image */
+  }
+/*----------les projets--------*/
+.projects {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    flex: 1;
+    max-width: 30%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-in-out forwards;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.project p {
+    margin: 10px 0;
+}
+
+.project a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: auto;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}  
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/*------------equipe----------*/
+.team-section {
+    padding: 80px 0;
+  }
+  
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .team-member {
+    width: 300px;
+    text-align: center;
+  }
+  
+  .team-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 20px;
+  }
+  
+  .team-member h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .team-member .role {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .team-member p {
+    color: #333;
+    line-height: 1.6;
+  }
+  
+
+/*___________contact--------------*/
+
+.contact {
+    background:  #d9d9d9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width:auto;
+    text-align: center;
+}
+.contact h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d9d9db;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.contact button {
+    background-color: #fff;
+    color: #040404;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.contact button:hover {
+    background-color: #DB5B20;
+    color: #fff;
+}
+
+/*----------footer----------*/
+
+
+footer {
+    background-color: #DB5B20;
+    text-align: center;
+    color: #f9f8f8;
+    width: 100%;
+    padding: 20px 0;
+}
