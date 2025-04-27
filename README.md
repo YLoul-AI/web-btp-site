@@ -47,7 +47,7 @@ WEB_BTP/
 - Connexion via login/mot de passe.
 - Validation sécurisée côté serveur.
 
-> ![Connexion](./images/connexion_site.png)
+> ![Connexion](./images/connexion_site.PNG)
 
 ---
 
@@ -58,23 +58,23 @@ WEB_BTP/
   - Projets
   - Services
 
-> ![Interface Principale](./images/main_site.png)
+> ![Interface Principale](./images/main_site.PNG)
 
 ---
 
 ### ➕ Gestion de contenu
 - Ajouter, modifier, supprimer des éléments de manière dynamique.
 
-> ![Ajouter du Contenu](./images/ajouter_contenu.png)
-> ![Modifier Contenu](./images/modifier_contenu.png)
-> ![Supprimer Contenu](./images/supprimer_contenu.png)
+> ![Ajouter du Contenu](./images/ajouter_contenu.PNG)
+> ![Modifier Contenu](./images/modifier_contenu.PNG)
+> ![Supprimer Contenu](./images/supprimer_contenu.PNG)
 
 ---
 
 ### 📑 Consultation de données
 - Consultation structurée sous forme de tableaux dynamiques.
 
-> ![Consulter Données](./images/consulter_contenu.png)
+> ![Consulter Données](./images/consulter_contenu.PNG)
 
 ---
 
